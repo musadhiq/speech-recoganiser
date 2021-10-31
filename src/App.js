@@ -50,6 +50,7 @@ function App() {
       continuous: true,
     });
   };
+
   const stopHandle = () => {
     setIsListening(false);
     microphoneRef.current.classList.remove("listening");
